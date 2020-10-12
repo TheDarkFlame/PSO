@@ -93,7 +93,8 @@ public class Main {
 
 		//high level info to console
 		FileWriter runOutput = new FileWriter(tempOutputPathPrefix + "run_data.txt", true);
-		runOutput.append(meta.toString()).append("\nfile = " + tempOutputPathPrefix + "swarm_").append(date).append(".csv").append("\nbest position = ").append(bestLowLevelPosition).append("\n").close();
-		System.out.println(meta);
+		String runSummary = meta.toString() + "\nfile = " + tempOutputPathPrefix + "swarm_" + date + ".csv\nbest position = " + bestLowLevelPosition + "\n";
+		runOutput.append(runSummary).close();
+		System.out.println(runSummary);
 	}
 }

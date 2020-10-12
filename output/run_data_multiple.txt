@@ -1,0 +1,64 @@
+
+w = -37.34311825482642
+c1 = 1.9781032657303648
+c2 = 1.7234624276750168
+bestIterationsWithoutImprovement = 26.82339961725492
+best fitness = -954.8465124082625
+file = output/temp/swarm_20201012-221839.csv
+best position = 511.612, 405.618
+
+w = -29.214591296330493
+c1 = 5.0534321425291004
+c2 = 5.741750825768932
+bestIterationsWithoutImprovement = 70.28968567748629
+best fitness = -937.6669073384171
+file = output/temp/swarm_20201012-222247.csv
+best position = 507.469, 398.450
+
+w = 8.244850467871409
+c1 = -6.8156444354113415
+c2 = -4.347566749852064
+bestIterationsWithoutImprovement = 31.643015847671744
+best fitness = -929.0577556299786
+file = output/temp/swarm_20201012-222442.csv
+best position = 445.394, 458.923
+
+w = 36.383214846741836
+c1 = 8.271878159503007
+c2 = -2.0354879859717983
+bestIterationsWithoutImprovement = 77.82364193302685
+best fitness = -950.6293272016401
+file = output/temp/swarm_20201012-222445.csv
+best position = 509.645, 401.777
+
+w = 28.848614932712593
+c1 = 4.099393600620653
+c2 = 3.863893776044094
+bestIterationsWithoutImprovement = 26.834531637974823
+best fitness = -947.5754152526074
+file = output/temp/swarm_20201012-222454.csv
+best position = 485.392, 440.749
+
+w = 34.99764279281973
+c1 = -2.413090465991159
+c2 = 7.004704573559394
+bestIterationsWithoutImprovement = 47.981750020534676
+best fitness = -955.6868751584896
+file = output/temp/swarm_20201012-222459.csv
+best position = 480.047, 430.681
+
+w = -9.26803120198413
+c1 = -1.5054119750583954
+c2 = 6.009707895701986
+bestIterationsWithoutImprovement = 20.448678170280097
+best fitness = -926.6755997743653
+file = output/temp/swarm_20201012-222504.csv
+best position = 475.478, 432.117
+
+w = -10.461302023252593
+c1 = 3.973915002730269
+c2 = 9.186423284648178
+bestIterationsWithoutImprovement = 76.31089219843892
+best fitness = -954.2308608721736
+file = output/temp/swarm_20201012-222515.csv
+best position = 477.507, 432.824
