@@ -1,7 +1,7 @@
-w = -7.940816534030525
-c1 = -8.218069240338902
-c2 = 2.214284805305045
-bestIterationsWithoutImprovement = 44.22002466322187
-best fitness = -955.3510477460674
-file = output/temp/swarm_20201012-212645.csv
-best position = 479.654, 430.283
+w = -37.34311825482642
+c1 = 1.9781032657303648
+c2 = 1.7234624276750168
+bestIterationsWithoutImprovement = 26.82339961725492
+best fitness = -954.8465124082625
+file = output/swarm_20201012-221839.csv
+best position = 511.612, 405.618
