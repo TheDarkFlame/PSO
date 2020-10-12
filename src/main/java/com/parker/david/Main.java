@@ -88,11 +88,12 @@ public class Main {
 		lowLevelSwarmOutput.append(meta.bestLowLevelSwarm.toString()).close();
 
 		FileWriter lowLevelBestOutput = new FileWriter(tempOutputPathPrefix + "best_" + date + ".csv", true);
-		lowLevelBestOutput.append(meta.bestLowLevelSwarm.getBestPosition().stream().map(aDouble -> String.format("%.3f", aDouble)).collect(Collectors.joining(", "))).close();
+		String bestLowLevelPosition = meta.bestLowLevelSwarm.getBestPosition().stream().map(aDouble -> String.format("%.3f", aDouble)).collect(Collectors.joining(", "));
+		lowLevelBestOutput.append(bestLowLevelPosition).close();
 
 		//high level info to console
-		FileWriter runOutput = new FileWriter(tempOutputPathPrefix + "run_data.csv", true);
-		runOutput.append(meta.toString()).append("\nfile = " + tempOutputPathPrefix + "swarm_").append(date).append(".csv").append("\n").close();
+		FileWriter runOutput = new FileWriter(tempOutputPathPrefix + "run_data.txt", true);
+		runOutput.append(meta.toString()).append("\nfile = " + tempOutputPathPrefix + "swarm_").append(date).append(".csv").append("\nbest position = ").append(bestLowLevelPosition).append("\n").close();
 		System.out.println(meta);
 	}
 }
